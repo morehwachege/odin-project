@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* colors */
+/* bold white --- #f9faf8 */
+/* dark blue ---- #1f2937 */
+body{
+    background-color: #1f2937 !important;
+    max-width: 100vw !important;
+}
+
+.container.top{
+    background-color: #1f2937 !important;
+    color: #f9faf8;
+    height: 100vh;
+}
+.row.header-container{
+    padding-top: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;margin: 30px;
+}
+.logo{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+header li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.row.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-top: 150px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.inner-col h3{
+    font-size: 48px;
+    font-weight:700;
+}
+.row.content .inner-col.first{
+    flex: 1;
+    padding-left: 100px;
+}
+.row.content .inner-col.first button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 30px 4px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+img{
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+.container-fluid.random-info{
+    background-color: #f9faf8 !important;
+}
+.car-text .car-title{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cars{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 100px;
+}
+.cars .car-col{
+    height: 200px;
+    width: 300px;
+    background-image: url(/assets/images/car12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 0px solid black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    box-sizing: border-box;
+    align-content: center;
+}
+.car-cont{
+    display: flex;
+    flex-direction: column;
+}
+.car-cont-text{
+    flex: 1;
+    text-align: center;
+    font-weight: 500;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+}
+figure blockquote p{
+    text-align: center;
+    background: #e5e7eb;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0.5em 10px;
+    font-size: 36px;
+    font-weight: 100;
+    vertical-align: -0.4em;
+  }
+figure figcaption{
+    font-size: 20px;
+    font-weight: 700;
+    flex: 1;
+    padding-left: 700px;
+    align-items: flex-end;
+}
+.container.call-to-action .awesome-blue{
+    padding: 25px;
+    padding-left: 40px;
+
+}
+.awesome-blue{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+
+}
+.call{
+    margin-top: 10px;
+    margin-right: 40px;
+    background-color: #3882f6;
+    height: 38px;
+    border: 1px solid #f9faf8;
+    padding: 4px 30px 4px 30px;
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.footer-text{
+    text-align: center;
+    color: #f9faf8;
+    padding-top: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
